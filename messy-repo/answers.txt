@@ -1,11 +1,4 @@
-Secret flag location
----------------------
-Command used: grep -rn "FLAG{" .
-File:  ./docs/archive/fieldnotes.txt
-Line:  3
-Value: FLAG{aut0mate_the_b0ring_stuff}
-
-Wildcard prediction
--------------------
-ls hw?.py   -> hw1.py hw2.py hw3.py        (? matches exactly one character, so hw10.py is excluded)
-ls hw*.py   -> hw1.py hw10.py hw2.py hw3.py (* matches any number of characters, so hw10.py is included)
+flag location: docs/archive/fieldnotes.txt line 3
+top-level python file count: 7
+top-level python line count: 43
+unfinished markers: 7
